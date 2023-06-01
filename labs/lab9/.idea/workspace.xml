@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bb95873-041d-421c-ade2-0f5de281198e" name="Changes" comment="Lab 9">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/java/com/example/springrabbitmqhelloworld/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/java/com/example/springrabbitmqhelloworld/RabbitAmqpTutorialsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/java/com/example/springrabbitmqhelloworld/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/java/com/example/springrabbitmqhelloworld/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/java/com/example/springrabbitmqhelloworld/SpringRabbitmqHelloworldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-helloworld/src/test/java/com/example/springrabbitmqhelloworld/SpringRabbitmqHelloworldApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/main/java/com/example/springrabbitmqworkers/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/main/java/com/example/springrabbitmqworkers/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/main/java/com/example/springrabbitmqworkers/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/main/java/com/example/springrabbitmqworkers/SpringRabbitmqWorkersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/main/resources/application-pord.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq-workers/src/test/java/com/example/springrabbitmqworkers/SpringRabbitmqWorkersApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/example/springrabbitmq/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/example/springrabbitmq/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/example/springrabbitmq/SpringRabbitmqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/test/java/com/example/springrabbitmq/SpringRabbitmqApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/spring-gumball-v3.0/src/main/java/com/example/springgumball/GumballMachineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/spring-gumball-v3.0/src/main/java/com/example/springgumball/GumballMachineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/starbucks-api/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../project/starbucks-api/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/starbucks-api/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../project/starbucks-api/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/starbucks-api/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../project/starbucks-api/docker-compose.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PG1aLaXZBUWqYrt5DNPeBBrXbY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bb95873-041d-421c-ade2-0f5de281198e" name="Changes" comment="" />
+      <created>1683068669458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683068669458</updated>
+      <workItem from="1683068670768" duration="833000" />
+      <workItem from="1683069528055" duration="230000" />
+    </task>
+    <task id="LOCAL-00001" summary="Lab 9">
+      <created>1683069270326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683069270326</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lab 9">
+      <created>1683069703159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683069703159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 9" />
+  </component>
+</project>
