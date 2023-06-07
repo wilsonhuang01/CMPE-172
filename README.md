@@ -25,7 +25,12 @@ The Starbucks project comprises the following components:
 
 - [Cashier's App](project/spring-cashier) simulates an app that cashiers use to enter the order info from customers
 - [Starbucks App](project/starbucks-app) simulates a mobile app that customers use to make a payment during checkout
-- [Starbucks API](project/starbucks-api) handles and processes API calls from Cashier's App and Starbucks app
-- [Starbucks Worker](project/starbucks-worker) receives the order info and updates the database when the drink is made
+- [Kong API Gateway](https://konghq.com) handles API calls from Cashier's App and Starbucks App
+- [Starbucks API](project/starbucks-api) processes API calls from Cashier's App and Starbucks App
+- [HAProxy](https://www.haproxy.org) (for local deployment) distributes traffic across multiple Cashier's App/Starbucks API servers
+- [MySQL Database](https://www.mysql.com) stores info related to orders, cards, users, sessions, etc.
+- [Jumpbox](https://www.ssh.com/academy/iam/jump-server) provides remote access to components inside the network (e.g. MySQL DB)
+- [RabbitMQ](https://www.rabbitmq.com) provides async order processing
+- [Starbucks Worker](project/starbucks-worker) receives the order info from RabbitMQ and updates the database when the drink is made
 
-
+[Project Demo](https://www.youtube.com/watch?v=SAjWL4Q2kvQ)
